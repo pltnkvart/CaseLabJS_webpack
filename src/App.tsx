@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
-import logo from "../public/example.png";
+import testImage from "@img/example1.png"
+
 const App = (): JSX.Element => {
   return (
     <>
@@ -8,7 +9,7 @@ const App = (): JSX.Element => {
       {process.env.API_KEY} <br />
       {process.env.NODE_ENV} <br />
       {process.env.BASE_URL} <br />
-      <img src={logo} alt="mountains" />
+      <img src={testImage}/>
     </>
   );
 };

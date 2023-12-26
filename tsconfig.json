@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "../src",
+    "paths": {
+      "*": ["*"]
+    },
     "target": "ES5" /* Specify ECMAScript target version: 'ES3' (default), 'ES5',
 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
     "module": "ESNext" /* Specify module code generation: 'none', 'commonjs', 'amd',
@@ -26,10 +30,6 @@ to the same file. */,
     "resolveJsonModule": true
     // "allowJs": true /* Allow javascript files to be compiled. Useful when migrating JS to TS */,
     // "checkJs": true /* Report errors in .js files. Works in tandem with allowJs. */,
-  },
-  "baseUrl": "./src",
-  "paths": {
-    "@/*": ["*"]
   },
   "include": ["src/**/*"]
 }
